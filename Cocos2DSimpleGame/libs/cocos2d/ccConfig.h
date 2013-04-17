@@ -204,8 +204,10 @@
  To disable it set it to 0. Enabled by default.
  
  */
-#ifndef CC_TEXTURE_ATLAS_USE_VAO
+#if !defined(CC_TEXTURE_ATLAS_USE_VAO) && !defined(ANDROID)
 #define CC_TEXTURE_ATLAS_USE_VAO 1
+#else
+#define CC_TEXTURE_ATLAS_USE_VAO 0
 #endif
 
 
