@@ -283,7 +283,7 @@ static CCTextureCache *sharedTextureCache;
 #endif
 
 	dispatch_sync(_dictQueue, ^{
-		tex = [textures_ objectForKey: path];
+		tex = [[textures_ objectForKey: path] retain];
 	});
 
 	if( ! tex ) {
@@ -294,7 +294,7 @@ static CCTextureCache *sharedTextureCache;
 
 
 		if ( [lowerCase hasSuffix:@".pvr"] || [lowerCase hasSuffix:@".pvr.gz"] || [lowerCase hasSuffix:@".pvr.ccz"] )
-			tex = [self addPVRImage:path];
+			tex = [[self addPVRImage:path] retain];
 
 #ifdef __CC_PLATFORM_IOS
 
@@ -313,9 +313,6 @@ static CCTextureCache *sharedTextureCache;
 			}else{
 				CCLOG(@"cocos2d: Couldn't add image:%@ in CCTextureCache", path);
 			}
-
-			// autorelease prevents possible crash in multithreaded environments
-			[tex autorelease];
 		}
 
 
@@ -338,15 +335,12 @@ static CCTextureCache *sharedTextureCache;
 			}else{
 				CCLOG(@"cocos2d: Couldn't add image:%@ in CCTextureCache", path);
 			}
-
-			// autorelease prevents possible crash in multithreaded environments
-			[tex autorelease];
 		}
 #endif // __CC_PLATFORM_MAC
 
 	}
 
-	return tex;
+	return [tex autorelease];
 }
 
 
