@@ -99,14 +99,17 @@
     ], 
     "moms": [], 
     "config": {
-        "APPLICATION_NAME": "Cocos2DSimpleGame", 
+        "FEATURES": [
+            "opengles2"
+        ], 
+        "APPLICATION_IDENTIFIER": "com.yourcompany.Cocos2DSimpleGame", 
         "TEMPLATE_VALUES": {
             "PRODUCT_NAME": "Cocos2DSimpleGame", 
             "EXECUTABLE_NAME": "Cocos2DSimpleGame"
         }, 
         "LONG_VERSION": "1.0", 
-        "APPLICATION_FULL_NAME": "Cocos2DSimpleGame", 
-        "APPLICATION_IDENTIFIER": "com.yourcompany.Cocos2DSimpleGame"
+        "APPLICATION_NAME": "Cocos2DSimpleGame", 
+        "APPLICATION_FULL_NAME": "Cocos2DSimpleGame"
     }, 
     "header_paths": [
         {

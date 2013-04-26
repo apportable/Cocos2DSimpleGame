@@ -71,7 +71,9 @@
     //   "opengles2"
     //   "touch_filter_move"
     //   "write_external_storage"
-    //"FEATURES": [],
+    "FEATURES": [
+        "opengles2",
+    ],
 
     // Typically a reverse DNS identifier for the application
     // developer, e.g., "com.apportable".  It should match the
