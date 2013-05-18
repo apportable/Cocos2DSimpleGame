@@ -5,24 +5,28 @@
     ], 
     "assets": [
         {
-            "asset": "Cocos2DSimpleGame/Resources/fps_images.png", 
-            "target": "fps_images.png"
+            "asset": "Cocos2DSimpleGame/Resources/fps_images-hd.png", 
+            "target": "fps_images-hd.png"
+        }, 
+        {
+            "asset": "Cocos2DSimpleGame/Resources/Default@2x.png", 
+            "target": "Default@2x.png"
         }, 
         {
             "asset": "Cocos2DSimpleGame/Resources/Default.png", 
             "target": "Default.png"
         }, 
         {
-            "asset": "Cocos2DSimpleGame/Resources/fps_images-hd.png", 
-            "target": "fps_images-hd.png"
+            "asset": "Cocos2DSimpleGame/Resources/fps_images.png", 
+            "target": "fps_images.png"
+        }, 
+        {
+            "asset": "Cocos2DSimpleGame/Resources/fps_images-ipadhd.png", 
+            "target": "fps_images-ipadhd.png"
         }, 
         {
             "asset": "Cocos2DSimpleGame/Resources/Default-568h@2x.png", 
             "target": "Default-568h@2x.png"
-        }, 
-        {
-            "asset": "Cocos2DSimpleGame/Resources/Default@2x.png", 
-            "target": "Default@2x.png"
         }, 
         {
             "asset": "Cocos2DSimpleGame/Resources/Default-Landscape~ipad.png", 
@@ -31,10 +35,6 @@
         {
             "asset": "Cocos2DSimpleGame/Resources/Icon-72.png", 
             "target": "Icon-72.png"
-        }, 
-        {
-            "asset": "Cocos2DSimpleGame/Resources/fps_images-ipadhd.png", 
-            "target": "fps_images-ipadhd.png"
         }, 
         {
             "asset": "Cocos2DSimpleGame/Resources/Icon-Small-50.png", 
@@ -97,18 +97,17 @@
             "target": "pew-pew-lei.caf"
         }
     ], 
-    "moms": [], 
     "config": {
         "FEATURES": [
             "opengles2"
         ], 
         "APPLICATION_IDENTIFIER": "com.yourcompany.Cocos2DSimpleGame", 
+        "APPLICATION_NAME": "Cocos2DSimpleGame", 
+        "LONG_VERSION": "1.0", 
         "TEMPLATE_VALUES": {
             "PRODUCT_NAME": "Cocos2DSimpleGame", 
             "EXECUTABLE_NAME": "Cocos2DSimpleGame"
         }, 
-        "LONG_VERSION": "1.0", 
-        "APPLICATION_NAME": "Cocos2DSimpleGame", 
         "APPLICATION_FULL_NAME": "Cocos2DSimpleGame"
     }, 
     "header_paths": [
@@ -821,14 +820,21 @@
     "modules": [], 
     "sources": [
         {
-            "source": "Cocos2DSimpleGame/AppDelegate.m", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCLayer.m", 
             "header_paths": [], 
             "flags": [], 
             "language": "objc", 
             "defines": {}
         }, 
         {
-            "source": "Cocos2DSimpleGame/GameOverLayer.m", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCSpriteBatchNode.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCActionManager.m", 
             "header_paths": [], 
             "flags": [], 
             "language": "objc", 
@@ -842,35 +848,21 @@
             "defines": {}
         }, 
         {
-            "source": "Cocos2DSimpleGame/IntroLayer.m", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCTMXLayer.m", 
             "header_paths": [], 
             "flags": [], 
             "language": "objc", 
             "defines": {}
         }, 
         {
-            "source": "Cocos2DSimpleGame/libs/CocosDenshion/CDAudioManager.m", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCParticleExamples.m", 
             "header_paths": [], 
             "flags": [], 
             "language": "objc", 
             "defines": {}
         }, 
         {
-            "source": "Cocos2DSimpleGame/libs/CocosDenshion/CDOpenALSupport.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/CocosDenshion/CocosDenshion.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/CocosDenshion/SimpleAudioEngine.m", 
+            "source": "Cocos2DSimpleGame/AppDelegate.m", 
             "header_paths": [], 
             "flags": [], 
             "language": "objc", 
@@ -927,13 +919,6 @@
         }, 
         {
             "source": "Cocos2DSimpleGame/libs/cocos2d/CCActionInterval.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCActionManager.m", 
             "header_paths": [], 
             "flags": [], 
             "language": "objc", 
@@ -1010,14 +995,14 @@
             "defines": {}
         }, 
         {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCDirector.m", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/ccDeprecated.m", 
             "header_paths": [], 
             "flags": [], 
             "language": "objc", 
             "defines": {}
         }, 
         {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCDrawNode.m", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCDirector.m", 
             "header_paths": [], 
             "flags": [], 
             "language": "objc", 
@@ -1031,7 +1016,21 @@
             "defines": {}
         }, 
         {
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCDrawNode.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
             "source": "Cocos2DSimpleGame/libs/cocos2d/CCGLProgram.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "Cocos2DSimpleGame/libs/cocos2d/ccGLStateCache.m", 
             "header_paths": [], 
             "flags": [], 
             "language": "objc", 
@@ -1067,13 +1066,6 @@
         }, 
         {
             "source": "Cocos2DSimpleGame/libs/cocos2d/CCLabelTTF.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCLayer.m", 
             "header_paths": [], 
             "flags": [], 
             "language": "objc", 
@@ -1123,13 +1115,6 @@
         }, 
         {
             "source": "Cocos2DSimpleGame/libs/cocos2d/CCParticleBatchNode.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCParticleExamples.m", 
             "header_paths": [], 
             "flags": [], 
             "language": "objc", 
@@ -1199,14 +1184,14 @@
             "defines": {}
         }, 
         {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCSprite.m", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/ccShaders.m", 
             "header_paths": [], 
             "flags": [], 
             "language": "objc", 
             "defines": {}
         }, 
         {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCSpriteBatchNode.m", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCSprite.m", 
             "header_paths": [], 
             "flags": [], 
             "language": "objc", 
@@ -1221,34 +1206,6 @@
         }, 
         {
             "source": "Cocos2DSimpleGame/libs/cocos2d/CCSpriteFrameCache.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCTMXLayer.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCTMXObjectGroup.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCTMXTiledMap.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCTMXXMLParser.m", 
             "header_paths": [], 
             "flags": [], 
             "language": "objc", 
@@ -1290,6 +1247,27 @@
             "defines": {}
         }, 
         {
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCTMXObjectGroup.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCTMXTiledMap.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCTMXXMLParser.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
             "source": "Cocos2DSimpleGame/libs/cocos2d/CCTransition.m", 
             "header_paths": [], 
             "flags": [], 
@@ -1311,28 +1289,7 @@
             "defines": {}
         }, 
         {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/Platforms/Mac/CCDirectorMac.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/Platforms/Mac/CCEventDispatcher.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/Platforms/Mac/CCGLView.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/Platforms/Mac/CCWindow.m", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/cocos2d.m", 
             "header_paths": [], 
             "flags": [], 
             "language": "objc", 
@@ -1374,7 +1331,49 @@
             "defines": {}
         }, 
         {
+            "source": "Cocos2DSimpleGame/libs/cocos2d/Platforms/Mac/CCDirectorMac.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "Cocos2DSimpleGame/libs/cocos2d/Platforms/Mac/CCEventDispatcher.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "Cocos2DSimpleGame/libs/cocos2d/Platforms/Mac/CCGLView.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "Cocos2DSimpleGame/libs/cocos2d/Platforms/Mac/CCWindow.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "Cocos2DSimpleGame/libs/cocos2d/Support/base64.c", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c", 
+            "defines": {}
+        }, 
+        {
             "source": "Cocos2DSimpleGame/libs/cocos2d/Support/CCArray.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "Cocos2DSimpleGame/libs/cocos2d/Support/ccCArray.m", 
             "header_paths": [], 
             "flags": [], 
             "language": "objc", 
@@ -1392,6 +1391,13 @@
             "header_paths": [], 
             "flags": [], 
             "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "Cocos2DSimpleGame/libs/cocos2d/Support/ccUtils.c", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "c", 
             "defines": {}
         }, 
         {
@@ -1437,52 +1443,38 @@
             "defines": {}
         }, 
         {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/Support/base64.c", 
+            "source": "Cocos2DSimpleGame/libs/CocosDenshion/CDAudioManager.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "Cocos2DSimpleGame/libs/CocosDenshion/CDOpenALSupport.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "Cocos2DSimpleGame/libs/CocosDenshion/CocosDenshion.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "Cocos2DSimpleGame/libs/CocosDenshion/SimpleAudioEngine.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "Cocos2DSimpleGame/libs/kazmath/src/aabb.c", 
             "header_paths": [], 
             "flags": [], 
             "language": "c", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/Support/ccCArray.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/Support/ccUtils.c", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "c", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/ccDeprecated.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/ccGLStateCache.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/ccShaders.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/cocos2d.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
             "defines": {}
         }, 
         {
@@ -1494,13 +1486,6 @@
         }, 
         {
             "source": "Cocos2DSimpleGame/libs/kazmath/src/GL/matrix.c", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "c", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/kazmath/src/aabb.c", 
             "header_paths": [], 
             "flags": [], 
             "language": "c", 
@@ -1582,12 +1567,33 @@
             "flags": [], 
             "language": "objc", 
             "defines": {}
+        }, 
+        {
+            "source": "Cocos2DSimpleGame/IntroLayer.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
+        }, 
+        {
+            "source": "Cocos2DSimpleGame/GameOverLayer.m", 
+            "header_paths": [], 
+            "flags": [], 
+            "language": "objc", 
+            "defines": {}
         }
     ], 
-    "version": "1", 
     "flags": [
         "-fwritable-strings", 
         "-fasm-blocks", 
+        {
+            "flag": "-std=gnu99", 
+            "not_type": "c++"
+        }, 
+        {
+            "flag": "-fgnu-keywords", 
+            "not_type": "c++"
+        }, 
         "-fno-asm", 
         "-fpascal-strings", 
         "-Wno-deprecated-declarations", 
@@ -1624,8 +1630,7 @@
     "type": "app", 
     "defines": {
         "NDEBUG": 1, 
-        "__IPHONE_OS_VERSION_MIN_REQUIRED": 40000, 
         "NS_BLOCK_ASSERTIONS": 1, 
-        "NS_BLOCK_ASSERTIONS=1": 1
+        "__IPHONE_OS_VERSION_MIN_REQUIRED": 40000
     }
 }
