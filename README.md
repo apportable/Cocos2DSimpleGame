@@ -1,6 +1,6 @@
 Cocos2DSimpleGame
 =================
 
-This is a port of Ray Wenderlich's Cocos2DSimpleGame, showing the basics of getting a Cocos2D app successfully building with Apportable.
+This is part one of Ray Wenderlich's Cocos2DSimpleGame, which shows the process of creating a simple game with cocos2d-iphone, from start to finish.
 
 Originally from [http://www.raywenderlich.com/25736/how-to-make-a-simple-iphone-game-with-cocos2d-2-x-tutorial]

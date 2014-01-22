@@ -15,6 +15,9 @@
 // Needed to obtain the Navigation Controller
 #import "AppDelegate.h"
 
+// Make it possible to seed the game for consistent testing.
+#define arc4random random
+
 #pragma mark - HelloWorldLayer
 
 // HelloWorldLayer implementation
