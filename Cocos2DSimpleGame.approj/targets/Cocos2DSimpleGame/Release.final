@@ -1,36 +1,36 @@
 {
-    "xcode_project": "Cocos2DSimpleGame.xcodeproj", 
-    "pchs": [
-        "./Cocos2DSimpleGame/Prefix.pch"
-    ], 
     "assets": [
         {
-            "asset": "Cocos2DSimpleGame/Resources/fps_images-hd.png", 
-            "target": "fps_images-hd.png"
+            "asset": "Cocos2DSimpleGame/Resources/Default@2x.png", 
+            "target": "Default@2x.png"
         }, 
         {
             "asset": "Cocos2DSimpleGame/Resources/fps_images.png", 
             "target": "fps_images.png"
         }, 
         {
-            "asset": "Cocos2DSimpleGame/Resources/Icon-Small.png", 
-            "target": "Icon-Small.png"
-        }, 
-        {
-            "asset": "Cocos2DSimpleGame/Resources/Icon-72.png", 
-            "target": "Icon-72.png"
-        }, 
-        {
-            "asset": "Cocos2DSimpleGame/Resources/Default-Landscape~ipad.png", 
-            "target": "Default-Landscape~ipad.png"
+            "asset": "Cocos2DSimpleGame/Resources/fps_images-hd.png", 
+            "target": "fps_images-hd.png"
         }, 
         {
             "asset": "Cocos2DSimpleGame/Resources/fps_images-ipadhd.png", 
             "target": "fps_images-ipadhd.png"
         }, 
         {
+            "asset": "Cocos2DSimpleGame/Resources/Icon-72.png", 
+            "target": "Icon-72.png"
+        }, 
+        {
+            "asset": "Cocos2DSimpleGame/Resources/Default-568h@2x.png", 
+            "target": "Default-568h@2x.png"
+        }, 
+        {
             "asset": "Cocos2DSimpleGame/Resources/Icon-Small-50.png", 
             "target": "Icon-Small-50.png"
+        }, 
+        {
+            "asset": "Cocos2DSimpleGame/Resources/Icon-Small.png", 
+            "target": "Icon-Small.png"
         }, 
         {
             "asset": "Cocos2DSimpleGame/Resources/Icon-Small@2x.png", 
@@ -47,6 +47,14 @@
         {
             "asset": "Cocos2DSimpleGame/Resources/iTunesArtwork", 
             "target": "iTunesArtwork"
+        }, 
+        {
+            "asset": "Cocos2DSimpleGame/Resources/Default-Landscape~ipad.png", 
+            "target": "Default-Landscape~ipad.png"
+        }, 
+        {
+            "asset": "Cocos2DSimpleGame/Resources/Default.png", 
+            "target": "Default.png"
         }, 
         {
             "asset": "Cocos2DSimpleGame/libs/kazmath/src/ChangeLog", 
@@ -86,1495 +94,37 @@
         }
     ], 
     "config": {
+        "APPLICATION_FULL_NAME": "Cocos2DSimpleGame", 
+        "APPLICATION_IDENTIFIER": "com.yourcompany.Cocos2DSimpleGame", 
+        "APPLICATION_NAME": "Cocos2DSimpleGame", 
         "FEATURES": [
             "opengles2", 
             "landscape"
         ], 
-        "APPLICATION_IDENTIFIER": "com.yourcompany.Cocos2DSimpleGame", 
-        "APPLICATION_NAME": "Cocos2DSimpleGame", 
         "LONG_VERSION": "1.0", 
         "TEMPLATE_VALUES": {
-            "PRODUCT_NAME": "Cocos2DSimpleGame", 
-            "EXECUTABLE_NAME": "Cocos2DSimpleGame"
-        }, 
-        "APPLICATION_FULL_NAME": "Cocos2DSimpleGame"
+            "EXECUTABLE_NAME": "Cocos2DSimpleGame", 
+            "PRODUCT_NAME": "Cocos2DSimpleGame"
+        }
     }, 
-    "header_paths": [
-        {
-            "header_path": "Cocos2DSimpleGame-generated-files.hmap", 
-            "type": "iquote", 
-            "hmap": {}
-        }, 
-        {
-            "header_path": "Cocos2DSimpleGame-own-target-headers.hmap", 
-            "type": "I", 
-            "hmap": {}
-        }, 
-        {
-            "header_path": "Cocos2DSimpleGame-all-target-headers.hmap", 
-            "type": "I", 
-            "hmap": {}
-        }, 
-        {
-            "header_path": "Cocos2DSimpleGame-project-headers.hmap", 
-            "type": "iquote", 
-            "hmap": {
-                "CCTextureCache.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCTextureCache.h", 
-                    "key": "CCTextureCache.h"
-                }, 
-                "ccShader_PositionTextureColor_vert.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "ccShader_PositionTextureColor_vert.h", 
-                    "key": "ccShader_PositionTextureColor_vert.h"
-                }, 
-                "NSThread+performBlock.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Support/", 
-                    "suffix": "NSThread+performBlock.h", 
-                    "key": "NSThread+performBlock.h"
-                }, 
-                "ccShader_PositionTexture_uColor_frag.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "ccShader_PositionTexture_uColor_frag.h", 
-                    "key": "ccShader_PositionTexture_uColor_frag.h"
-                }, 
-                "CCTMXTiledMap.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCTMXTiledMap.h", 
-                    "key": "CCTMXTiledMap.h"
-                }, 
-                "CCPhysicsDebugNode.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCPhysicsDebugNode.h", 
-                    "key": "CCPhysicsDebugNode.h"
-                }, 
-                "CCTouchDelegateProtocol.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Platforms/iOS/", 
-                    "suffix": "CCTouchDelegateProtocol.h", 
-                    "key": "CCTouchDelegateProtocol.h"
-                }, 
-                "CDAudioManager.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/CocosDenshion/", 
-                    "suffix": "CDAudioManager.h", 
-                    "key": "CDAudioManager.h"
-                }, 
-                "ccShader_PositionTexture_uColor_vert.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "ccShader_PositionTexture_uColor_vert.h", 
-                    "key": "ccShader_PositionTexture_uColor_vert.h"
-                }, 
-                "CocosDenshion.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/CocosDenshion/", 
-                    "suffix": "CocosDenshion.h", 
-                    "key": "CocosDenshion.h"
-                }, 
-                "CCActionProgressTimer.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCActionProgressTimer.h", 
-                    "key": "CCActionProgressTimer.h"
-                }, 
-                "CCActionPageTurn3D.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCActionPageTurn3D.h", 
-                    "key": "CCActionPageTurn3D.h"
-                }, 
-                "CCAtlasNode.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCAtlasNode.h", 
-                    "key": "CCAtlasNode.h"
-                }, 
-                "CCLayer.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCLayer.h", 
-                    "key": "CCLayer.h"
-                }, 
-                "CCES2Renderer.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Platforms/iOS/", 
-                    "suffix": "CCES2Renderer.h", 
-                    "key": "CCES2Renderer.h"
-                }, 
-                "ccConfig.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "ccConfig.h", 
-                    "key": "ccConfig.h"
-                }, 
-                "CCAnimationCache.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCAnimationCache.h", 
-                    "key": "CCAnimationCache.h"
-                }, 
-                "ccTypes.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "ccTypes.h", 
-                    "key": "ccTypes.h"
-                }, 
-                "cocos2d.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "cocos2d.h", 
-                    "key": "cocos2d.h"
-                }, 
-                "CCGrid.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCGrid.h", 
-                    "key": "CCGrid.h"
-                }, 
-                "vec3.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/kazmath/include/kazmath/", 
-                    "suffix": "vec3.h", 
-                    "key": "vec3.h"
-                }, 
-                "ray2.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/kazmath/include/kazmath/", 
-                    "suffix": "ray2.h", 
-                    "key": "ray2.h"
-                }, 
-                "CCTransition.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCTransition.h", 
-                    "key": "CCTransition.h"
-                }, 
-                "CCSpriteFrameCache.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCSpriteFrameCache.h", 
-                    "key": "CCSpriteFrameCache.h"
-                }, 
-                "CCGrabber.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCGrabber.h", 
-                    "key": "CCGrabber.h"
-                }, 
-                "CCProtocols.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCProtocols.h", 
-                    "key": "CCProtocols.h"
-                }, 
-                "ccShader_Position_uColor_frag.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "ccShader_Position_uColor_frag.h", 
-                    "key": "ccShader_Position_uColor_frag.h"
-                }, 
-                "CCArray.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Support/", 
-                    "suffix": "CCArray.h", 
-                    "key": "CCArray.h"
-                }, 
-                "ccCArray.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Support/", 
-                    "suffix": "ccCArray.h", 
-                    "key": "ccCArray.h"
-                }, 
-                "CCMenu.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCMenu.h", 
-                    "key": "CCMenu.h"
-                }, 
-                "CCActionTween.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCActionTween.h", 
-                    "key": "CCActionTween.h"
-                }, 
-                "CCTouchHandler.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Platforms/iOS/", 
-                    "suffix": "CCTouchHandler.h", 
-                    "key": "CCTouchHandler.h"
-                }, 
-                "GameOverLayer.h": {
-                    "prefix": "Cocos2DSimpleGame/", 
-                    "suffix": "GameOverLayer.h", 
-                    "key": "GameOverLayer.h"
-                }, 
-                "ccShader_PositionColor_frag.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "ccShader_PositionColor_frag.h", 
-                    "key": "ccShader_PositionColor_frag.h"
-                }, 
-                "CCEventDispatcher.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Platforms/Mac/", 
-                    "suffix": "CCEventDispatcher.h", 
-                    "key": "CCEventDispatcher.h"
-                }, 
-                "ccShader_PositionTextureColor_frag.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "ccShader_PositionTextureColor_frag.h", 
-                    "key": "ccShader_PositionTextureColor_frag.h"
-                }, 
-                "CCTransitionProgress.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCTransitionProgress.h", 
-                    "key": "CCTransitionProgress.h"
-                }, 
-                "CDOpenALSupport.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/CocosDenshion/", 
-                    "suffix": "CDOpenALSupport.h", 
-                    "key": "CDOpenALSupport.h"
-                }, 
-                "ccShader_PositionColor_vert.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "ccShader_PositionColor_vert.h", 
-                    "key": "ccShader_PositionColor_vert.h"
-                }, 
-                "ccShader_PositionTexture_frag.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "ccShader_PositionTexture_frag.h", 
-                    "key": "ccShader_PositionTexture_frag.h"
-                }, 
-                "CCVertex.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Support/", 
-                    "suffix": "CCVertex.h", 
-                    "key": "CCVertex.h"
-                }, 
-                "quaternion.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/kazmath/include/kazmath/", 
-                    "suffix": "quaternion.h", 
-                    "key": "quaternion.h"
-                }, 
-                "TransformUtils.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Support/", 
-                    "suffix": "TransformUtils.h", 
-                    "key": "TransformUtils.h"
-                }, 
-                "CCSprite.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCSprite.h", 
-                    "key": "CCSprite.h"
-                }, 
-                "neon_matrix_impl.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/kazmath/include/kazmath/", 
-                    "suffix": "neon_matrix_impl.h", 
-                    "key": "neon_matrix_impl.h"
-                }, 
-                "ccGLStateCache.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "ccGLStateCache.h", 
-                    "key": "ccGLStateCache.h"
-                }, 
-                "CCParallaxNode.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCParallaxNode.h", 
-                    "key": "CCParallaxNode.h"
-                }, 
-                "kazmath.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/kazmath/include/kazmath/", 
-                    "suffix": "kazmath.h", 
-                    "key": "kazmath.h"
-                }, 
-                "aabb.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/kazmath/include/kazmath/", 
-                    "suffix": "aabb.h", 
-                    "key": "aabb.h"
-                }, 
-                "CCActionInterval.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCActionInterval.h", 
-                    "key": "CCActionInterval.h"
-                }, 
-                "CCConfiguration.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCConfiguration.h", 
-                    "key": "CCConfiguration.h"
-                }, 
-                "CCRenderTexture.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCRenderTexture.h", 
-                    "key": "CCRenderTexture.h"
-                }, 
-                "vec4.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/kazmath/include/kazmath/", 
-                    "suffix": "vec4.h", 
-                    "key": "vec4.h"
-                }, 
-                "CCActionGrid3D.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCActionGrid3D.h", 
-                    "key": "CCActionGrid3D.h"
-                }, 
-                "TGAlib.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Support/", 
-                    "suffix": "TGAlib.h", 
-                    "key": "TGAlib.h"
-                }, 
-                "utlist.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Support/", 
-                    "suffix": "utlist.h", 
-                    "key": "utlist.h"
-                }, 
-                "CCTouchDispatcher.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Platforms/iOS/", 
-                    "suffix": "CCTouchDispatcher.h", 
-                    "key": "CCTouchDispatcher.h"
-                }, 
-                "CCScene.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCScene.h", 
-                    "key": "CCScene.h"
-                }, 
-                "CCActionTiledGrid.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCActionTiledGrid.h", 
-                    "key": "CCActionTiledGrid.h"
-                }, 
-                "OpenGL_Internal.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Support/", 
-                    "suffix": "OpenGL_Internal.h", 
-                    "key": "OpenGL_Internal.h"
-                }, 
-                "CCParticleSystem.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCParticleSystem.h", 
-                    "key": "CCParticleSystem.h"
-                }, 
-                "SimpleAudioEngine.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/CocosDenshion/", 
-                    "suffix": "SimpleAudioEngine.h", 
-                    "key": "SimpleAudioEngine.h"
-                }, 
-                "ccShader_PositionColorLengthTexture_frag.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "ccShader_PositionColorLengthTexture_frag.h", 
-                    "key": "ccShader_PositionColorLengthTexture_frag.h"
-                }, 
-                "ccShaders.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "ccShaders.h", 
-                    "key": "ccShaders.h"
-                }, 
-                "CGPointExtension.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Support/", 
-                    "suffix": "CGPointExtension.h", 
-                    "key": "CGPointExtension.h"
-                }, 
-                "plane.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/kazmath/include/kazmath/", 
-                    "suffix": "plane.h", 
-                    "key": "plane.h"
-                }, 
-                "ccShader_PositionColorLengthTexture_vert.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "ccShader_PositionColorLengthTexture_vert.h", 
-                    "key": "ccShader_PositionColorLengthTexture_vert.h"
-                }, 
-                "CCParticleExamples.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCParticleExamples.h", 
-                    "key": "CCParticleExamples.h"
-                }, 
-                "HelloWorldLayer.h": {
-                    "prefix": "Cocos2DSimpleGame/", 
-                    "suffix": "HelloWorldLayer.h", 
-                    "key": "HelloWorldLayer.h"
-                }, 
-                "CCClippingNode.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCClippingNode.h", 
-                    "key": "CCClippingNode.h"
-                }, 
-                "CCAnimation.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCAnimation.h", 
-                    "key": "CCAnimation.h"
-                }, 
-                "ZipUtils.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Support/", 
-                    "suffix": "ZipUtils.h", 
-                    "key": "ZipUtils.h"
-                }, 
-                "Prefix.pch": {
-                    "prefix": "Cocos2DSimpleGame/", 
-                    "suffix": "Prefix.pch", 
-                    "key": "Prefix.pch"
-                }, 
-                "CCLabelBMFont.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCLabelBMFont.h", 
-                    "key": "CCLabelBMFont.h"
-                }, 
-                "CCActionEase.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCActionEase.h", 
-                    "key": "CCActionEase.h"
-                }, 
-                "CCProfiling.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Support/", 
-                    "suffix": "CCProfiling.h", 
-                    "key": "CCProfiling.h"
-                }, 
-                "CCGL.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Platforms/", 
-                    "suffix": "CCGL.h", 
-                    "key": "CCGL.h"
-                }, 
-                "CCActionCatmullRom.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCActionCatmullRom.h", 
-                    "key": "CCActionCatmullRom.h"
-                }, 
-                "CCGLProgram.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCGLProgram.h", 
-                    "key": "CCGLProgram.h"
-                }, 
-                "CCFileUtils.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Support/", 
-                    "suffix": "CCFileUtils.h", 
-                    "key": "CCFileUtils.h"
-                }, 
-                "matrix.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/kazmath/include/kazmath/GL/", 
-                    "suffix": "matrix.h", 
-                    "key": "matrix.h"
-                }, 
-                "CCActionManager.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCActionManager.h", 
-                    "key": "CCActionManager.h"
-                }, 
-                "CCMotionStreak.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCMotionStreak.h", 
-                    "key": "CCMotionStreak.h"
-                }, 
-                "mat4.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/kazmath/include/kazmath/", 
-                    "suffix": "mat4.h", 
-                    "key": "mat4.h"
-                }, 
-                "CCDirectorIOS.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Platforms/iOS/", 
-                    "suffix": "CCDirectorIOS.h", 
-                    "key": "CCDirectorIOS.h"
-                }, 
-                "CCNode+Debug.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCNode+Debug.h", 
-                    "key": "CCNode+Debug.h"
-                }, 
-                "CCAction.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCAction.h", 
-                    "key": "CCAction.h"
-                }, 
-                "CCSpriteBatchNode.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCSpriteBatchNode.h", 
-                    "key": "CCSpriteBatchNode.h"
-                }, 
-                "CCTMXObjectGroup.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCTMXObjectGroup.h", 
-                    "key": "CCTMXObjectGroup.h"
-                }, 
-                "uthash.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Support/", 
-                    "suffix": "uthash.h", 
-                    "key": "uthash.h"
-                }, 
-                "CCPhysicsSprite.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCPhysicsSprite.h", 
-                    "key": "CCPhysicsSprite.h"
-                }, 
-                "CCTMXXMLParser.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCTMXXMLParser.h", 
-                    "key": "CCTMXXMLParser.h"
-                }, 
-                "CCDrawNode.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCDrawNode.h", 
-                    "key": "CCDrawNode.h"
-                }, 
-                "CCActionCamera.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCActionCamera.h", 
-                    "key": "CCActionCamera.h"
-                }, 
-                "ccShader_PositionTextureA8Color_vert.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "ccShader_PositionTextureA8Color_vert.h", 
-                    "key": "ccShader_PositionTextureA8Color_vert.h"
-                }, 
-                "CDConfig.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/CocosDenshion/", 
-                    "suffix": "CDConfig.h", 
-                    "key": "CDConfig.h"
-                }, 
-                "CCLabelTTF.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCLabelTTF.h", 
-                    "key": "CCLabelTTF.h"
-                }, 
-                "CCDrawingPrimitives.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCDrawingPrimitives.h", 
-                    "key": "CCDrawingPrimitives.h"
-                }, 
-                "ccShader_Position_uColor_vert.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "ccShader_Position_uColor_vert.h", 
-                    "key": "ccShader_Position_uColor_vert.h"
-                }, 
-                "mat4stack.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/kazmath/include/kazmath/GL/", 
-                    "suffix": "mat4stack.h", 
-                    "key": "mat4stack.h"
-                }, 
-                "CCNS.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Platforms/", 
-                    "suffix": "CCNS.h", 
-                    "key": "CCNS.h"
-                }, 
-                "CCTileMapAtlas.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCTileMapAtlas.h", 
-                    "key": "CCTileMapAtlas.h"
-                }, 
-                "CCTMXLayer.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCTMXLayer.h", 
-                    "key": "CCTMXLayer.h"
-                }, 
-                "CCActionInstant.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCActionInstant.h", 
-                    "key": "CCActionInstant.h"
-                }, 
-                "CCSpriteFrame.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCSpriteFrame.h", 
-                    "key": "CCSpriteFrame.h"
-                }, 
-                "CCScheduler.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCScheduler.h", 
-                    "key": "CCScheduler.h"
-                }, 
-                "ccShader_PositionTextureColorAlphaTest_frag.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "ccShader_PositionTextureColorAlphaTest_frag.h", 
-                    "key": "ccShader_PositionTextureColorAlphaTest_frag.h"
-                }, 
-                "CCESRenderer.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Platforms/iOS/", 
-                    "suffix": "CCESRenderer.h", 
-                    "key": "CCESRenderer.h"
-                }, 
-                "CCTransitionPageTurn.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCTransitionPageTurn.h", 
-                    "key": "CCTransitionPageTurn.h"
-                }, 
-                "base64.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Support/", 
-                    "suffix": "base64.h", 
-                    "key": "base64.h"
-                }, 
-                "ccDeprecated.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "ccDeprecated.h", 
-                    "key": "ccDeprecated.h"
-                }, 
-                "CCParticleBatchNode.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCParticleBatchNode.h", 
-                    "key": "CCParticleBatchNode.h"
-                }, 
-                "CCActionGrid.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCActionGrid.h", 
-                    "key": "CCActionGrid.h"
-                }, 
-                "CCGLView.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Platforms/iOS/", 
-                    "suffix": "CCGLView.h", 
-                    "key": "CCGLView.h"
-                }, 
-                "CCParticleSystemQuad.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCParticleSystemQuad.h", 
-                    "key": "CCParticleSystemQuad.h"
-                }, 
-                "vec2.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/kazmath/include/kazmath/", 
-                    "suffix": "vec2.h", 
-                    "key": "vec2.h"
-                }, 
-                "ccMacros.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "ccMacros.h", 
-                    "key": "ccMacros.h"
-                }, 
-                "ccShader_PositionTexture_vert.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "ccShader_PositionTexture_vert.h", 
-                    "key": "ccShader_PositionTexture_vert.h"
-                }, 
-                "CCLabelAtlas.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCLabelAtlas.h", 
-                    "key": "CCLabelAtlas.h"
-                }, 
-                "AppDelegate.h": {
-                    "prefix": "Cocos2DSimpleGame/", 
-                    "suffix": "AppDelegate.h", 
-                    "key": "AppDelegate.h"
-                }, 
-                "mat3.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/kazmath/include/kazmath/", 
-                    "suffix": "mat3.h", 
-                    "key": "mat3.h"
-                }, 
-                "CCTexture2D.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCTexture2D.h", 
-                    "key": "CCTexture2D.h"
-                }, 
-                "CCTextureAtlas.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCTextureAtlas.h", 
-                    "key": "CCTextureAtlas.h"
-                }, 
-                "utility.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/kazmath/include/kazmath/", 
-                    "suffix": "utility.h", 
-                    "key": "utility.h"
-                }, 
-                "IntroLayer.h": {
-                    "prefix": "Cocos2DSimpleGame/", 
-                    "suffix": "IntroLayer.h", 
-                    "key": "IntroLayer.h"
-                }, 
-                "CCWindow.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Platforms/Mac/", 
-                    "suffix": "CCWindow.h", 
-                    "key": "CCWindow.h"
-                }, 
-                "CCShaderCache.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCShaderCache.h", 
-                    "key": "CCShaderCache.h"
-                }, 
-                "CCProgressTimer.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCProgressTimer.h", 
-                    "key": "CCProgressTimer.h"
-                }, 
-                "CCNode.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCNode.h", 
-                    "key": "CCNode.h"
-                }, 
-                "CCTexturePVR.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCTexturePVR.h", 
-                    "key": "CCTexturePVR.h"
-                }, 
-                "ccUtils.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Support/", 
-                    "suffix": "ccUtils.h", 
-                    "key": "ccUtils.h"
-                }, 
-                "ccShader_PositionTextureA8Color_frag.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "ccShader_PositionTextureA8Color_frag.h", 
-                    "key": "ccShader_PositionTextureA8Color_frag.h"
-                }, 
-                "CCDirector.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCDirector.h", 
-                    "key": "CCDirector.h"
-                }, 
-                "CCMenuItem.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCMenuItem.h", 
-                    "key": "CCMenuItem.h"
-                }, 
-                "CCCamera.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
-                    "suffix": "CCCamera.h", 
-                    "key": "CCCamera.h"
-                }, 
-                "CCDirectorMac.h": {
-                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Platforms/Mac/", 
-                    "suffix": "CCDirectorMac.h", 
-                    "key": "CCDirectorMac.h"
-                }
-            }
-        }, 
-        {
-            "header_path": "Cocos2DSimpleGame/libs/kazmath/include", 
-            "type": "I"
-        }
+    "defines": {
+        "NDEBUG": 1, 
+        "NS_BLOCK_ASSERTIONS": 1, 
+        "__IPHONE_OS_VERSION_MIN_REQUIRED": 40000
+    }, 
+    "deps": [
+        "UIKit", 
+        "QuartzCore", 
+        "OpenGLES", 
+        "OpenAL", 
+        "AudioToolbox", 
+        "AVFoundation", 
+        "UIKit", 
+        "Foundation", 
+        "CoreGraphics", 
+        "GameKit"
     ], 
-    "modules": [], 
-    "sources": [
-        {
-            "source": "Cocos2DSimpleGame/AppDelegate.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/GameOverLayer.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/HelloWorldLayer.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/IntroLayer.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/CocosDenshion/CDAudioManager.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/CocosDenshion/CDOpenALSupport.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/CocosDenshion/CocosDenshion.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/CocosDenshion/SimpleAudioEngine.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCAction.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCActionCamera.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCActionCatmullRom.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCActionEase.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCActionGrid.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCActionGrid3D.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCActionInstant.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCActionInterval.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCActionManager.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCActionPageTurn3D.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCActionProgressTimer.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCActionTiledGrid.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCActionTween.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCAnimation.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCAnimationCache.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCAtlasNode.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCCamera.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCClippingNode.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCConfiguration.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCDirector.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCDrawNode.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCDrawingPrimitives.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCGLProgram.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCGrabber.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCGrid.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCLabelAtlas.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCLabelBMFont.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCLabelTTF.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCLayer.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCMenu.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCMenuItem.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCMotionStreak.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCNode+Debug.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCNode.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCParallaxNode.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCParticleBatchNode.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCParticleExamples.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCParticleSystem.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCParticleSystemQuad.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCPhysicsDebugNode.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCPhysicsSprite.mm", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc++", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCProgressTimer.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCRenderTexture.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCScene.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCScheduler.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCShaderCache.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCSprite.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCSpriteBatchNode.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCSpriteFrame.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCSpriteFrameCache.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCTMXLayer.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCTMXObjectGroup.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCTMXTiledMap.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCTMXXMLParser.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCTexture2D.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCTextureAtlas.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCTextureCache.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCTexturePVR.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCTileMapAtlas.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCTransition.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCTransitionPageTurn.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/CCTransitionProgress.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/Platforms/Mac/CCDirectorMac.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/Platforms/Mac/CCEventDispatcher.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/Platforms/Mac/CCGLView.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/Platforms/Mac/CCWindow.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/Platforms/iOS/CCDirectorIOS.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/Platforms/iOS/CCES2Renderer.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/Platforms/iOS/CCGLView.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/Platforms/iOS/CCTouchDispatcher.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/Platforms/iOS/CCTouchHandler.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/Support/CCArray.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/Support/CCFileUtils.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/Support/CCProfiling.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/Support/CCVertex.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/Support/CGPointExtension.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/Support/NSThread+performBlock.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/Support/TGAlib.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/Support/TransformUtils.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/Support/ZipUtils.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/Support/base64.c", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "c", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/Support/ccCArray.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/Support/ccUtils.c", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "c", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/ccDeprecated.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/ccGLStateCache.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/ccShaders.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/cocos2d/cocos2d.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/kazmath/src/GL/mat4stack.c", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "c", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/kazmath/src/GL/matrix.c", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "c", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/kazmath/src/aabb.c", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "c", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/kazmath/src/mat3.c", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "c", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/kazmath/src/mat4.c", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "c", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/kazmath/src/neon_matrix_impl.c", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "c", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/kazmath/src/plane.c", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "c", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/kazmath/src/quaternion.c", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "c", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/kazmath/src/ray2.c", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "c", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/kazmath/src/utility.c", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "c", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/kazmath/src/vec2.c", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "c", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/kazmath/src/vec3.c", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "c", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/libs/kazmath/src/vec4.c", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "c", 
-            "defines": {}
-        }, 
-        {
-            "source": "Cocos2DSimpleGame/main.m", 
-            "header_paths": [], 
-            "flags": [], 
-            "language": "objc", 
-            "defines": {}
-        }
-    ], 
-    "version": "1", 
     "flags": [
-        "-fwritable-strings", 
         "-fasm-blocks", 
         {
             "flag": "-std=gnu99", 
@@ -1602,25 +152,1494 @@
             "type": "objc"
         }
     ], 
+    "header_paths": [
+        {
+            "header_path": "Cocos2DSimpleGame-generated-files.hmap", 
+            "hmap": {}, 
+            "type": "iquote"
+        }, 
+        {
+            "header_path": "Cocos2DSimpleGame-own-target-headers.hmap", 
+            "hmap": {}, 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Cocos2DSimpleGame-all-target-headers.hmap", 
+            "hmap": {}, 
+            "type": "I"
+        }, 
+        {
+            "header_path": "Cocos2DSimpleGame-project-headers.hmap", 
+            "hmap": {
+                "AppDelegate.h": {
+                    "key": "AppDelegate.h", 
+                    "prefix": "Cocos2DSimpleGame/", 
+                    "suffix": "AppDelegate.h"
+                }, 
+                "CCAction.h": {
+                    "key": "CCAction.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCAction.h"
+                }, 
+                "CCActionCamera.h": {
+                    "key": "CCActionCamera.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCActionCamera.h"
+                }, 
+                "CCActionCatmullRom.h": {
+                    "key": "CCActionCatmullRom.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCActionCatmullRom.h"
+                }, 
+                "CCActionEase.h": {
+                    "key": "CCActionEase.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCActionEase.h"
+                }, 
+                "CCActionGrid.h": {
+                    "key": "CCActionGrid.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCActionGrid.h"
+                }, 
+                "CCActionGrid3D.h": {
+                    "key": "CCActionGrid3D.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCActionGrid3D.h"
+                }, 
+                "CCActionInstant.h": {
+                    "key": "CCActionInstant.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCActionInstant.h"
+                }, 
+                "CCActionInterval.h": {
+                    "key": "CCActionInterval.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCActionInterval.h"
+                }, 
+                "CCActionManager.h": {
+                    "key": "CCActionManager.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCActionManager.h"
+                }, 
+                "CCActionPageTurn3D.h": {
+                    "key": "CCActionPageTurn3D.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCActionPageTurn3D.h"
+                }, 
+                "CCActionProgressTimer.h": {
+                    "key": "CCActionProgressTimer.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCActionProgressTimer.h"
+                }, 
+                "CCActionTiledGrid.h": {
+                    "key": "CCActionTiledGrid.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCActionTiledGrid.h"
+                }, 
+                "CCActionTween.h": {
+                    "key": "CCActionTween.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCActionTween.h"
+                }, 
+                "CCAnimation.h": {
+                    "key": "CCAnimation.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCAnimation.h"
+                }, 
+                "CCAnimationCache.h": {
+                    "key": "CCAnimationCache.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCAnimationCache.h"
+                }, 
+                "CCArray.h": {
+                    "key": "CCArray.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Support/", 
+                    "suffix": "CCArray.h"
+                }, 
+                "CCAtlasNode.h": {
+                    "key": "CCAtlasNode.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCAtlasNode.h"
+                }, 
+                "CCCamera.h": {
+                    "key": "CCCamera.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCCamera.h"
+                }, 
+                "CCClippingNode.h": {
+                    "key": "CCClippingNode.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCClippingNode.h"
+                }, 
+                "CCConfiguration.h": {
+                    "key": "CCConfiguration.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCConfiguration.h"
+                }, 
+                "CCDirector.h": {
+                    "key": "CCDirector.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCDirector.h"
+                }, 
+                "CCDirectorIOS.h": {
+                    "key": "CCDirectorIOS.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Platforms/iOS/", 
+                    "suffix": "CCDirectorIOS.h"
+                }, 
+                "CCDirectorMac.h": {
+                    "key": "CCDirectorMac.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Platforms/Mac/", 
+                    "suffix": "CCDirectorMac.h"
+                }, 
+                "CCDrawNode.h": {
+                    "key": "CCDrawNode.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCDrawNode.h"
+                }, 
+                "CCDrawingPrimitives.h": {
+                    "key": "CCDrawingPrimitives.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCDrawingPrimitives.h"
+                }, 
+                "CCES2Renderer.h": {
+                    "key": "CCES2Renderer.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Platforms/iOS/", 
+                    "suffix": "CCES2Renderer.h"
+                }, 
+                "CCESRenderer.h": {
+                    "key": "CCESRenderer.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Platforms/iOS/", 
+                    "suffix": "CCESRenderer.h"
+                }, 
+                "CCEventDispatcher.h": {
+                    "key": "CCEventDispatcher.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Platforms/Mac/", 
+                    "suffix": "CCEventDispatcher.h"
+                }, 
+                "CCFileUtils.h": {
+                    "key": "CCFileUtils.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Support/", 
+                    "suffix": "CCFileUtils.h"
+                }, 
+                "CCGL.h": {
+                    "key": "CCGL.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Platforms/", 
+                    "suffix": "CCGL.h"
+                }, 
+                "CCGLProgram.h": {
+                    "key": "CCGLProgram.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCGLProgram.h"
+                }, 
+                "CCGLView.h": {
+                    "key": "CCGLView.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Platforms/iOS/", 
+                    "suffix": "CCGLView.h"
+                }, 
+                "CCGrabber.h": {
+                    "key": "CCGrabber.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCGrabber.h"
+                }, 
+                "CCGrid.h": {
+                    "key": "CCGrid.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCGrid.h"
+                }, 
+                "CCLabelAtlas.h": {
+                    "key": "CCLabelAtlas.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCLabelAtlas.h"
+                }, 
+                "CCLabelBMFont.h": {
+                    "key": "CCLabelBMFont.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCLabelBMFont.h"
+                }, 
+                "CCLabelTTF.h": {
+                    "key": "CCLabelTTF.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCLabelTTF.h"
+                }, 
+                "CCLayer.h": {
+                    "key": "CCLayer.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCLayer.h"
+                }, 
+                "CCMenu.h": {
+                    "key": "CCMenu.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCMenu.h"
+                }, 
+                "CCMenuItem.h": {
+                    "key": "CCMenuItem.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCMenuItem.h"
+                }, 
+                "CCMotionStreak.h": {
+                    "key": "CCMotionStreak.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCMotionStreak.h"
+                }, 
+                "CCNS.h": {
+                    "key": "CCNS.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Platforms/", 
+                    "suffix": "CCNS.h"
+                }, 
+                "CCNode+Debug.h": {
+                    "key": "CCNode+Debug.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCNode+Debug.h"
+                }, 
+                "CCNode.h": {
+                    "key": "CCNode.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCNode.h"
+                }, 
+                "CCParallaxNode.h": {
+                    "key": "CCParallaxNode.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCParallaxNode.h"
+                }, 
+                "CCParticleBatchNode.h": {
+                    "key": "CCParticleBatchNode.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCParticleBatchNode.h"
+                }, 
+                "CCParticleExamples.h": {
+                    "key": "CCParticleExamples.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCParticleExamples.h"
+                }, 
+                "CCParticleSystem.h": {
+                    "key": "CCParticleSystem.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCParticleSystem.h"
+                }, 
+                "CCParticleSystemQuad.h": {
+                    "key": "CCParticleSystemQuad.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCParticleSystemQuad.h"
+                }, 
+                "CCPhysicsDebugNode.h": {
+                    "key": "CCPhysicsDebugNode.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCPhysicsDebugNode.h"
+                }, 
+                "CCPhysicsSprite.h": {
+                    "key": "CCPhysicsSprite.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCPhysicsSprite.h"
+                }, 
+                "CCProfiling.h": {
+                    "key": "CCProfiling.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Support/", 
+                    "suffix": "CCProfiling.h"
+                }, 
+                "CCProgressTimer.h": {
+                    "key": "CCProgressTimer.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCProgressTimer.h"
+                }, 
+                "CCProtocols.h": {
+                    "key": "CCProtocols.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCProtocols.h"
+                }, 
+                "CCRenderTexture.h": {
+                    "key": "CCRenderTexture.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCRenderTexture.h"
+                }, 
+                "CCScene.h": {
+                    "key": "CCScene.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCScene.h"
+                }, 
+                "CCScheduler.h": {
+                    "key": "CCScheduler.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCScheduler.h"
+                }, 
+                "CCShaderCache.h": {
+                    "key": "CCShaderCache.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCShaderCache.h"
+                }, 
+                "CCSprite.h": {
+                    "key": "CCSprite.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCSprite.h"
+                }, 
+                "CCSpriteBatchNode.h": {
+                    "key": "CCSpriteBatchNode.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCSpriteBatchNode.h"
+                }, 
+                "CCSpriteFrame.h": {
+                    "key": "CCSpriteFrame.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCSpriteFrame.h"
+                }, 
+                "CCSpriteFrameCache.h": {
+                    "key": "CCSpriteFrameCache.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCSpriteFrameCache.h"
+                }, 
+                "CCTMXLayer.h": {
+                    "key": "CCTMXLayer.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCTMXLayer.h"
+                }, 
+                "CCTMXObjectGroup.h": {
+                    "key": "CCTMXObjectGroup.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCTMXObjectGroup.h"
+                }, 
+                "CCTMXTiledMap.h": {
+                    "key": "CCTMXTiledMap.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCTMXTiledMap.h"
+                }, 
+                "CCTMXXMLParser.h": {
+                    "key": "CCTMXXMLParser.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCTMXXMLParser.h"
+                }, 
+                "CCTexture2D.h": {
+                    "key": "CCTexture2D.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCTexture2D.h"
+                }, 
+                "CCTextureAtlas.h": {
+                    "key": "CCTextureAtlas.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCTextureAtlas.h"
+                }, 
+                "CCTextureCache.h": {
+                    "key": "CCTextureCache.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCTextureCache.h"
+                }, 
+                "CCTexturePVR.h": {
+                    "key": "CCTexturePVR.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCTexturePVR.h"
+                }, 
+                "CCTileMapAtlas.h": {
+                    "key": "CCTileMapAtlas.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCTileMapAtlas.h"
+                }, 
+                "CCTouchDelegateProtocol.h": {
+                    "key": "CCTouchDelegateProtocol.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Platforms/iOS/", 
+                    "suffix": "CCTouchDelegateProtocol.h"
+                }, 
+                "CCTouchDispatcher.h": {
+                    "key": "CCTouchDispatcher.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Platforms/iOS/", 
+                    "suffix": "CCTouchDispatcher.h"
+                }, 
+                "CCTouchHandler.h": {
+                    "key": "CCTouchHandler.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Platforms/iOS/", 
+                    "suffix": "CCTouchHandler.h"
+                }, 
+                "CCTransition.h": {
+                    "key": "CCTransition.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCTransition.h"
+                }, 
+                "CCTransitionPageTurn.h": {
+                    "key": "CCTransitionPageTurn.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCTransitionPageTurn.h"
+                }, 
+                "CCTransitionProgress.h": {
+                    "key": "CCTransitionProgress.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "CCTransitionProgress.h"
+                }, 
+                "CCVertex.h": {
+                    "key": "CCVertex.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Support/", 
+                    "suffix": "CCVertex.h"
+                }, 
+                "CCWindow.h": {
+                    "key": "CCWindow.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Platforms/Mac/", 
+                    "suffix": "CCWindow.h"
+                }, 
+                "CDAudioManager.h": {
+                    "key": "CDAudioManager.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/CocosDenshion/", 
+                    "suffix": "CDAudioManager.h"
+                }, 
+                "CDConfig.h": {
+                    "key": "CDConfig.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/CocosDenshion/", 
+                    "suffix": "CDConfig.h"
+                }, 
+                "CDOpenALSupport.h": {
+                    "key": "CDOpenALSupport.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/CocosDenshion/", 
+                    "suffix": "CDOpenALSupport.h"
+                }, 
+                "CGPointExtension.h": {
+                    "key": "CGPointExtension.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Support/", 
+                    "suffix": "CGPointExtension.h"
+                }, 
+                "CocosDenshion.h": {
+                    "key": "CocosDenshion.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/CocosDenshion/", 
+                    "suffix": "CocosDenshion.h"
+                }, 
+                "GameOverLayer.h": {
+                    "key": "GameOverLayer.h", 
+                    "prefix": "Cocos2DSimpleGame/", 
+                    "suffix": "GameOverLayer.h"
+                }, 
+                "HelloWorldLayer.h": {
+                    "key": "HelloWorldLayer.h", 
+                    "prefix": "Cocos2DSimpleGame/", 
+                    "suffix": "HelloWorldLayer.h"
+                }, 
+                "IntroLayer.h": {
+                    "key": "IntroLayer.h", 
+                    "prefix": "Cocos2DSimpleGame/", 
+                    "suffix": "IntroLayer.h"
+                }, 
+                "NSThread+performBlock.h": {
+                    "key": "NSThread+performBlock.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Support/", 
+                    "suffix": "NSThread+performBlock.h"
+                }, 
+                "OpenGL_Internal.h": {
+                    "key": "OpenGL_Internal.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Support/", 
+                    "suffix": "OpenGL_Internal.h"
+                }, 
+                "Prefix.pch": {
+                    "key": "Prefix.pch", 
+                    "prefix": "Cocos2DSimpleGame/", 
+                    "suffix": "Prefix.pch"
+                }, 
+                "SimpleAudioEngine.h": {
+                    "key": "SimpleAudioEngine.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/CocosDenshion/", 
+                    "suffix": "SimpleAudioEngine.h"
+                }, 
+                "TGAlib.h": {
+                    "key": "TGAlib.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Support/", 
+                    "suffix": "TGAlib.h"
+                }, 
+                "TransformUtils.h": {
+                    "key": "TransformUtils.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Support/", 
+                    "suffix": "TransformUtils.h"
+                }, 
+                "ZipUtils.h": {
+                    "key": "ZipUtils.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Support/", 
+                    "suffix": "ZipUtils.h"
+                }, 
+                "aabb.h": {
+                    "key": "aabb.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/kazmath/include/kazmath/", 
+                    "suffix": "aabb.h"
+                }, 
+                "base64.h": {
+                    "key": "base64.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Support/", 
+                    "suffix": "base64.h"
+                }, 
+                "ccCArray.h": {
+                    "key": "ccCArray.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Support/", 
+                    "suffix": "ccCArray.h"
+                }, 
+                "ccConfig.h": {
+                    "key": "ccConfig.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "ccConfig.h"
+                }, 
+                "ccDeprecated.h": {
+                    "key": "ccDeprecated.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "ccDeprecated.h"
+                }, 
+                "ccGLStateCache.h": {
+                    "key": "ccGLStateCache.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "ccGLStateCache.h"
+                }, 
+                "ccMacros.h": {
+                    "key": "ccMacros.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "ccMacros.h"
+                }, 
+                "ccShader_PositionColorLengthTexture_frag.h": {
+                    "key": "ccShader_PositionColorLengthTexture_frag.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "ccShader_PositionColorLengthTexture_frag.h"
+                }, 
+                "ccShader_PositionColorLengthTexture_vert.h": {
+                    "key": "ccShader_PositionColorLengthTexture_vert.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "ccShader_PositionColorLengthTexture_vert.h"
+                }, 
+                "ccShader_PositionColor_frag.h": {
+                    "key": "ccShader_PositionColor_frag.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "ccShader_PositionColor_frag.h"
+                }, 
+                "ccShader_PositionColor_vert.h": {
+                    "key": "ccShader_PositionColor_vert.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "ccShader_PositionColor_vert.h"
+                }, 
+                "ccShader_PositionTextureA8Color_frag.h": {
+                    "key": "ccShader_PositionTextureA8Color_frag.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "ccShader_PositionTextureA8Color_frag.h"
+                }, 
+                "ccShader_PositionTextureA8Color_vert.h": {
+                    "key": "ccShader_PositionTextureA8Color_vert.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "ccShader_PositionTextureA8Color_vert.h"
+                }, 
+                "ccShader_PositionTextureColorAlphaTest_frag.h": {
+                    "key": "ccShader_PositionTextureColorAlphaTest_frag.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "ccShader_PositionTextureColorAlphaTest_frag.h"
+                }, 
+                "ccShader_PositionTextureColor_frag.h": {
+                    "key": "ccShader_PositionTextureColor_frag.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "ccShader_PositionTextureColor_frag.h"
+                }, 
+                "ccShader_PositionTextureColor_vert.h": {
+                    "key": "ccShader_PositionTextureColor_vert.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "ccShader_PositionTextureColor_vert.h"
+                }, 
+                "ccShader_PositionTexture_frag.h": {
+                    "key": "ccShader_PositionTexture_frag.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "ccShader_PositionTexture_frag.h"
+                }, 
+                "ccShader_PositionTexture_uColor_frag.h": {
+                    "key": "ccShader_PositionTexture_uColor_frag.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "ccShader_PositionTexture_uColor_frag.h"
+                }, 
+                "ccShader_PositionTexture_uColor_vert.h": {
+                    "key": "ccShader_PositionTexture_uColor_vert.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "ccShader_PositionTexture_uColor_vert.h"
+                }, 
+                "ccShader_PositionTexture_vert.h": {
+                    "key": "ccShader_PositionTexture_vert.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "ccShader_PositionTexture_vert.h"
+                }, 
+                "ccShader_Position_uColor_frag.h": {
+                    "key": "ccShader_Position_uColor_frag.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "ccShader_Position_uColor_frag.h"
+                }, 
+                "ccShader_Position_uColor_vert.h": {
+                    "key": "ccShader_Position_uColor_vert.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "ccShader_Position_uColor_vert.h"
+                }, 
+                "ccShaders.h": {
+                    "key": "ccShaders.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "ccShaders.h"
+                }, 
+                "ccTypes.h": {
+                    "key": "ccTypes.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "ccTypes.h"
+                }, 
+                "ccUtils.h": {
+                    "key": "ccUtils.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Support/", 
+                    "suffix": "ccUtils.h"
+                }, 
+                "cocos2d.h": {
+                    "key": "cocos2d.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/", 
+                    "suffix": "cocos2d.h"
+                }, 
+                "kazmath.h": {
+                    "key": "kazmath.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/kazmath/include/kazmath/", 
+                    "suffix": "kazmath.h"
+                }, 
+                "mat3.h": {
+                    "key": "mat3.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/kazmath/include/kazmath/", 
+                    "suffix": "mat3.h"
+                }, 
+                "mat4.h": {
+                    "key": "mat4.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/kazmath/include/kazmath/", 
+                    "suffix": "mat4.h"
+                }, 
+                "mat4stack.h": {
+                    "key": "mat4stack.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/kazmath/include/kazmath/GL/", 
+                    "suffix": "mat4stack.h"
+                }, 
+                "matrix.h": {
+                    "key": "matrix.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/kazmath/include/kazmath/GL/", 
+                    "suffix": "matrix.h"
+                }, 
+                "neon_matrix_impl.h": {
+                    "key": "neon_matrix_impl.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/kazmath/include/kazmath/", 
+                    "suffix": "neon_matrix_impl.h"
+                }, 
+                "plane.h": {
+                    "key": "plane.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/kazmath/include/kazmath/", 
+                    "suffix": "plane.h"
+                }, 
+                "quaternion.h": {
+                    "key": "quaternion.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/kazmath/include/kazmath/", 
+                    "suffix": "quaternion.h"
+                }, 
+                "ray2.h": {
+                    "key": "ray2.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/kazmath/include/kazmath/", 
+                    "suffix": "ray2.h"
+                }, 
+                "uthash.h": {
+                    "key": "uthash.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Support/", 
+                    "suffix": "uthash.h"
+                }, 
+                "utility.h": {
+                    "key": "utility.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/kazmath/include/kazmath/", 
+                    "suffix": "utility.h"
+                }, 
+                "utlist.h": {
+                    "key": "utlist.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/cocos2d/Support/", 
+                    "suffix": "utlist.h"
+                }, 
+                "vec2.h": {
+                    "key": "vec2.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/kazmath/include/kazmath/", 
+                    "suffix": "vec2.h"
+                }, 
+                "vec3.h": {
+                    "key": "vec3.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/kazmath/include/kazmath/", 
+                    "suffix": "vec3.h"
+                }, 
+                "vec4.h": {
+                    "key": "vec4.h", 
+                    "prefix": "Cocos2DSimpleGame/libs/kazmath/include/kazmath/", 
+                    "suffix": "vec4.h"
+                }
+            }, 
+            "type": "iquote"
+        }, 
+        {
+            "header_path": "Cocos2DSimpleGame/libs/kazmath/include", 
+            "type": "I"
+        }
+    ], 
     "infoplists": [
         "./Cocos2DSimpleGame/Resources/Info.plist"
     ], 
-    "deps": [
-        "UIKit", 
-        "QuartzCore", 
-        "OpenGLES", 
-        "OpenAL", 
-        "AudioToolbox", 
-        "AVFoundation", 
-        "UIKit", 
-        "Foundation", 
-        "CoreGraphics", 
-        "GameKit"
+    "java_libs": [], 
+    "java_res_dirs": [], 
+    "java_sourcepaths": [], 
+    "java_sources": [], 
+    "libs": [
+        "z"
+    ], 
+    "link_flags": [], 
+    "modules": [], 
+    "pchs": [
+        "./Cocos2DSimpleGame/Prefix.pch"
+    ], 
+    "sources": [
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/AppDelegate.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/GameOverLayer.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/HelloWorldLayer.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/IntroLayer.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/CocosDenshion/CDAudioManager.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/CocosDenshion/CDOpenALSupport.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/CocosDenshion/CocosDenshion.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/CocosDenshion/SimpleAudioEngine.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCAction.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCActionCamera.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCActionCatmullRom.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCActionEase.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCActionGrid.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCActionGrid3D.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCActionInstant.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCActionInterval.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCActionManager.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCActionPageTurn3D.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCActionProgressTimer.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCActionTiledGrid.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCActionTween.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCAnimation.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCAnimationCache.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCAtlasNode.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCCamera.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCClippingNode.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCConfiguration.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCDirector.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCDrawNode.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCDrawingPrimitives.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCGLProgram.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCGrabber.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCGrid.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCLabelAtlas.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCLabelBMFont.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCLabelTTF.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCLayer.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCMenu.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCMenuItem.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCMotionStreak.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCNode+Debug.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCNode.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCParallaxNode.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCParticleBatchNode.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCParticleExamples.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCParticleSystem.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCParticleSystemQuad.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCPhysicsDebugNode.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc++", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCPhysicsSprite.mm"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCProgressTimer.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCRenderTexture.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCScene.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCScheduler.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCShaderCache.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCSprite.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCSpriteBatchNode.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCSpriteFrame.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCSpriteFrameCache.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCTMXLayer.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCTMXObjectGroup.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCTMXTiledMap.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCTMXXMLParser.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCTexture2D.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCTextureAtlas.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCTextureCache.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCTexturePVR.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCTileMapAtlas.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCTransition.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCTransitionPageTurn.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/CCTransitionProgress.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/Platforms/Mac/CCDirectorMac.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/Platforms/Mac/CCEventDispatcher.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/Platforms/Mac/CCGLView.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/Platforms/Mac/CCWindow.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/Platforms/iOS/CCDirectorIOS.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/Platforms/iOS/CCES2Renderer.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/Platforms/iOS/CCGLView.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/Platforms/iOS/CCTouchDispatcher.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/Platforms/iOS/CCTouchHandler.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/Support/CCArray.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/Support/CCFileUtils.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/Support/CCProfiling.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/Support/CCVertex.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/Support/CGPointExtension.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/Support/NSThread+performBlock.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/Support/TGAlib.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/Support/TransformUtils.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/Support/ZipUtils.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "c", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/Support/base64.c"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/Support/ccCArray.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "c", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/Support/ccUtils.c"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/ccDeprecated.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/ccGLStateCache.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/ccShaders.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/libs/cocos2d/cocos2d.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "c", 
+            "source": "Cocos2DSimpleGame/libs/kazmath/src/GL/mat4stack.c"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "c", 
+            "source": "Cocos2DSimpleGame/libs/kazmath/src/GL/matrix.c"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "c", 
+            "source": "Cocos2DSimpleGame/libs/kazmath/src/aabb.c"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "c", 
+            "source": "Cocos2DSimpleGame/libs/kazmath/src/mat3.c"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "c", 
+            "source": "Cocos2DSimpleGame/libs/kazmath/src/mat4.c"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "c", 
+            "source": "Cocos2DSimpleGame/libs/kazmath/src/neon_matrix_impl.c"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "c", 
+            "source": "Cocos2DSimpleGame/libs/kazmath/src/plane.c"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "c", 
+            "source": "Cocos2DSimpleGame/libs/kazmath/src/quaternion.c"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "c", 
+            "source": "Cocos2DSimpleGame/libs/kazmath/src/ray2.c"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "c", 
+            "source": "Cocos2DSimpleGame/libs/kazmath/src/utility.c"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "c", 
+            "source": "Cocos2DSimpleGame/libs/kazmath/src/vec2.c"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "c", 
+            "source": "Cocos2DSimpleGame/libs/kazmath/src/vec3.c"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "c", 
+            "source": "Cocos2DSimpleGame/libs/kazmath/src/vec4.c"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Cocos2DSimpleGame/main.m"
+        }
     ], 
     "type": "app", 
-    "defines": {
-        "NDEBUG": 1, 
-        "NS_BLOCK_ASSERTIONS": 1, 
-        "__IPHONE_OS_VERSION_MIN_REQUIRED": 40000
-    }
+    "version": "1", 
+    "xcode_project": "Cocos2DSimpleGame.xcodeproj"
 }
