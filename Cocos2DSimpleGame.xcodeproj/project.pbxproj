@@ -16,10 +16,7 @@
 		35DC30B016530C7500862E62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35DC30AF16530C7500862E62 /* Foundation.framework */; };
 		35DC30B216530C7500862E62 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35DC30B116530C7500862E62 /* CoreGraphics.framework */; };
 		35DC30B416530C7500862E62 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35DC30B316530C7500862E62 /* GameKit.framework */; };
-		35DC30B816530C7500862E62 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 35DC30B716530C7500862E62 /* Default.png */; };
 		35DC30BA16530C7600862E62 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35DC30B916530C7600862E62 /* Default@2x.png */; };
-		35DC30BC16530C7600862E62 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35DC30BB16530C7600862E62 /* Default-568h@2x.png */; };
-		35DC30BE16530C7700862E62 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 35DC30BD16530C7700862E62 /* Default-Landscape~ipad.png */; };
 		35DC30C016530C7700862E62 /* fps_images.png in Resources */ = {isa = PBXBuildFile; fileRef = 35DC30BF16530C7700862E62 /* fps_images.png */; };
 		35DC30C216530C7700862E62 /* fps_images-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 35DC30C116530C7700862E62 /* fps_images-hd.png */; };
 		35DC30C416530C7700862E62 /* fps_images-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = 35DC30C316530C7700862E62 /* fps_images-ipadhd.png */; };
@@ -148,6 +145,9 @@
 		35DC32641653184500862E62 /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = 35DC325C1653184500862E62 /* background-music-aac.caf */; };
 		35DC32651653184500862E62 /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = 35DC325D1653184500862E62 /* pew-pew-lei.caf */; };
 		35DC32681653249C00862E62 /* GameOverLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DC32671653249C00862E62 /* GameOverLayer.m */; };
+		5B4276CB188F8D6500CECBD1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B4276C8188F8D6500CECBD1 /* Default-568h@2x.png */; };
+		5B4276CC188F8D6500CECBD1 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B4276C9188F8D6500CECBD1 /* Default-Landscape~ipad.png */; };
+		5B4276CD188F8D6500CECBD1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B4276CA188F8D6500CECBD1 /* Default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -161,10 +161,7 @@
 		35DC30AF16530C7500862E62 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		35DC30B116530C7500862E62 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		35DC30B316530C7500862E62 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
-		35DC30B716530C7500862E62 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Default.png; sourceTree = "<group>"; };
 		35DC30B916530C7600862E62 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/Default@2x.png"; sourceTree = "<group>"; };
-		35DC30BB16530C7600862E62 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
-		35DC30BD16530C7700862E62 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape~ipad.png"; path = "Resources/Default-Landscape~ipad.png"; sourceTree = "<group>"; };
 		35DC30BF16530C7700862E62 /* fps_images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fps_images.png; path = Resources/fps_images.png; sourceTree = "<group>"; };
 		35DC30C116530C7700862E62 /* fps_images-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fps_images-hd.png"; path = "Resources/fps_images-hd.png"; sourceTree = "<group>"; };
 		35DC30C316530C7700862E62 /* fps_images-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fps_images-ipadhd.png"; path = "Resources/fps_images-ipadhd.png"; sourceTree = "<group>"; };
@@ -435,6 +432,9 @@
 		35DC325D1653184500862E62 /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
 		35DC32661653249C00862E62 /* GameOverLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverLayer.h; sourceTree = "<group>"; };
 		35DC32671653249C00862E62 /* GameOverLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverLayer.m; sourceTree = "<group>"; };
+		5B4276C8188F8D6500CECBD1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
+		5B4276C9188F8D6500CECBD1 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape~ipad.png"; path = "Resources/Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		5B4276CA188F8D6500CECBD1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Default.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -512,10 +512,10 @@
 		35DC30B616530C7500862E62 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				35DC30B716530C7500862E62 /* Default.png */,
+				5B4276C8188F8D6500CECBD1 /* Default-568h@2x.png */,
+				5B4276C9188F8D6500CECBD1 /* Default-Landscape~ipad.png */,
+				5B4276CA188F8D6500CECBD1 /* Default.png */,
 				35DC30B916530C7600862E62 /* Default@2x.png */,
-				35DC30BB16530C7600862E62 /* Default-568h@2x.png */,
-				35DC30BD16530C7700862E62 /* Default-Landscape~ipad.png */,
 				35DC30BF16530C7700862E62 /* fps_images.png */,
 				35DC30C116530C7700862E62 /* fps_images-hd.png */,
 				35DC30C316530C7700862E62 /* fps_images-ipadhd.png */,
@@ -966,20 +966,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35DC30B816530C7500862E62 /* Default.png in Resources */,
 				35DC30BA16530C7600862E62 /* Default@2x.png in Resources */,
-				35DC30BC16530C7600862E62 /* Default-568h@2x.png in Resources */,
-				35DC30BE16530C7700862E62 /* Default-Landscape~ipad.png in Resources */,
 				35DC30C016530C7700862E62 /* fps_images.png in Resources */,
 				35DC30C216530C7700862E62 /* fps_images-hd.png in Resources */,
 				35DC30C416530C7700862E62 /* fps_images-ipadhd.png in Resources */,
 				35DC30C616530C7800862E62 /* Icon-72.png in Resources */,
+				5B4276CB188F8D6500CECBD1 /* Default-568h@2x.png in Resources */,
 				35DC30C816530C7800862E62 /* Icon-Small-50.png in Resources */,
 				35DC30CA16530C7800862E62 /* Icon-Small.png in Resources */,
 				35DC30CC16530C7800862E62 /* Icon-Small@2x.png in Resources */,
 				35DC30CE16530C7800862E62 /* Icon.png in Resources */,
 				35DC30D016530C7900862E62 /* Icon@2x.png in Resources */,
 				35DC30D316530C7A00862E62 /* iTunesArtwork in Resources */,
+				5B4276CC188F8D6500CECBD1 /* Default-Landscape~ipad.png in Resources */,
+				5B4276CD188F8D6500CECBD1 /* Default.png in Resources */,
 				35DC321F16530CA000862E62 /* ChangeLog in Resources */,
 				35DC325E1653184500862E62 /* monster-hd.png in Resources */,
 				35DC325F1653184500862E62 /* monster.png in Resources */,
@@ -1211,6 +1211,7 @@
 				35DC324C16530CA500862E62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E7735C86-B292-43C7-979D-A0D035D3E41B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Cocos2DSimpleGame</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B38A7D69-31C4-4682-84B9-5BAFC62DB03A</key>
+		<string>ssh://github.com/apportable/Cocos2DSimpleGame.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Cocos2DSimpleGame.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B38A7D69-31C4-4682-84B9-5BAFC62DB03A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/apportable/Cocos2DSimpleGame.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B38A7D69-31C4-4682-84B9-5BAFC62DB03A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B38A7D69-31C4-4682-84B9-5BAFC62DB03A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Cocos2DSimpleGame</string>
+		</dict>
+	</array>
+</dict>
+</plist>
